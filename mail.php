@@ -38,7 +38,7 @@ $mail->Body    = '
 if(!$mail->send()) {
     return false;
 } else {
-    header('location: index.php');
+    header('location: index.html');
 }
 
 ?>
