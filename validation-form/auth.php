@@ -20,5 +20,5 @@
 
     $mysql->close();
 
-    header('Location: ../index.php');
+    header('Location: ../index.html');
 ?>
